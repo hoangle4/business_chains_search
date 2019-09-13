@@ -14,13 +14,3 @@ const MapCtrl = (() => {
     }
   };
 })();
-
-const APP = (MapCtrl => {
-  const eventHandlers = () => {
-    MapCtrl.initMap();
-  };
-  document.addEventListener("DOMContentLoaded", eventHandlers);
-})(MapCtrl);
-function initMap() {
-  MapCtrl.initMap();
-}
